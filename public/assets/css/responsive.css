@@ -1,0 +1,936 @@
+@media only screen and (max-width: 767px) {
+  /*----- Default CSS -----*/
+  body {
+    font-size: 15px;
+  }
+  .ptb-100 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .pt-100 {
+    padding-top: 50px;
+  }
+  .pb-70 {
+    padding-bottom: 20px;
+  }
+  .pb-100 {
+    padding-bottom: 50px;
+  }
+  .container {
+    max-width: 540px;
+  }
+  .section-title {
+    margin-bottom: 30px;
+  }
+  .section-title h2 {
+    font-size: 30px;
+  }
+  /*----- Home Demo One CSS -----*/
+  /*-- Header --*/
+  .header-area {
+    text-align: center;
+  }
+  .header-area .left {
+    margin-bottom: 15px;
+  }
+  .header-area .left ul li {
+    margin-right: 0;
+    margin-bottom: 8px;
+    display: block;
+  }
+  .header-area .right {
+    text-align: center;
+  }
+  .header-area .right ul {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+  .header-area .right ul li {
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+  .header-area .right ul li:last-child {
+    margin-right: 3px;
+  }
+  .header-area .right .header-search .centered {
+    width: 85%;
+    padding: 5px 5px;
+  }
+  .header-area .right .header-search .centered #search-box form .btn {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+  }
+  .header-area .right .nav-flag-dropdown .dropdown-menu {
+    -webkit-transform: translate3d(-65px, 30px, 0px) !important;
+            transform: translate3d(-65px, 30px, 0px) !important;
+  }
+  /*-- Navbar --*/
+  .navbar-area {
+    border-top: 1px solid #828181;
+  }
+  .side-nav {
+    position: absolute;
+    top: 9px;
+    right: 60px;
+  }
+  .side-nav a {
+    padding: 8px 25px;
+  }
+  /*-- Banner --*/
+  .banner-area {
+    padding-top: 150px;
+    padding-bottom: 105px;
+    height: 100%;
+    text-align: center;
+  }
+  .banner-area .banner-img img:nth-child(1) {
+    max-width: 100%;
+  }
+  .banner-area .banner-img img:nth-child(2) {
+    display: none;
+  }
+  .banner-content {
+    margin-top: 0;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner-content span {
+    padding: 5px 10px;
+  }
+  .banner-content h1 {
+    font-size: 30px;
+  }
+  .banner-content p {
+    font-size: 16px;
+  }
+  .banner-content .banner-btn-area {
+    margin-bottom: 30px;
+  }
+  .banner-content .banner-btn-area .banner-btn {
+    margin-bottom: 10px;
+  }
+  .video-wrap .js-modal-btn {
+    width: 90px;
+    height: 90px;
+    font-size: 35px;
+  }
+  .video-wrap .js-modal-btn i {
+    line-height: 90px;
+  }
+  /*-- Video Banner --*/
+  .video-banner-area {
+    height: 100%;
+    padding-top: 120px;
+    padding-bottom: 50px;
+  }
+  .video-banner-content {
+    text-align: center;
+  }
+  .video-banner-content h1 {
+    font-size: 30px;
+  }
+  .video-banner-content p {
+    font-size: 16px;
+  }
+  .video-banner-content .banner-btn-area {
+    margin-bottom: 30px;
+  }
+  .video-banner-content .banner-btn-area .banner-btn {
+    margin-bottom: 10px;
+  }
+  /*-- Dream --*/
+  .dream-item {
+    text-align: center;
+    padding: 30px 15px 30px;
+  }
+  .dream-item p {
+    margin-bottom: 15px;
+  }
+  .dream-item .sub-span {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 20px;
+  }
+  /*-- About --*/
+  .about-area {
+    text-align: center;
+  }
+  .about-area .about-content .section-title {
+    text-align: center;
+  }
+  .about-area .about-content .about-btn-area .about-btn {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .about-area .about-content .about-btn-area .common-btn {
+    display: block;
+  }
+  /*-- Feature --*/
+  .feature-area {
+    text-align: center;
+  }
+  /*-- Donation --*/
+  .donation-item {
+    text-align: center;
+  }
+  .donation-item .inner {
+    padding: 26px 15px 30px;
+  }
+  /*-- Work --*/
+  .work-area {
+    text-align: center;
+  }
+  .work-area .work-content .section-title {
+    text-align: center;
+  }
+  .work-area .work-img {
+    text-align: center;
+  }
+  .work-area .work-img img:nth-child(1) {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .work-area .work-img img:nth-child(2) {
+    max-width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+  }
+  /*-- Event --*/
+  .event-item .inner {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding-left: 80px;
+  }
+  .event-item .inner h4 {
+    font-size: 25px;
+    height: 65px;
+    max-width: 60px;
+    top: 4px;
+  }
+  .event-item .inner h4 span {
+    font-size: 18px;
+  }
+  .event-item .inner ul li {
+    margin-bottom: 8px;
+  }
+  .event-item .inner ul li:last-child {
+    margin-bottom: 0;
+  }
+  .event-item-right {
+    padding-left: 80px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+  .event-item-right h4 {
+    font-size: 25px;
+    height: 65px;
+    max-width: 60px;
+    top: 4px;
+    padding-top: 6px;
+  }
+  .event-item-right h4 span {
+    font-size: 18px;
+    top: -7px;
+  }
+  .event-item-right ul li {
+    margin-bottom: 8px;
+  }
+  .event-item-right ul li:last-child {
+    margin-bottom: 0;
+  }
+  /*-- Blog --*/
+  .blog-area {
+    text-align: center;
+  }
+  /*-- Footer --*/
+  .footer-area .copyright-area {
+    margin-top: 20px;
+  }
+  /*----- Home Demo Two CSS -----*/
+  /*-- Banner --*/
+  .banner-area-two .banner-slider-item {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 90px;
+  }
+  .banner-area-two .banner-slider-item .banner-shape {
+    display: none;
+  }
+  .banner-area-two .banner-content {
+    margin-top: 0;
+    max-width: 100%;
+    padding: 0 0 0;
+  }
+  .banner-area-two .banner-content h1 {
+    font-size: 28px;
+  }
+  .banner-area-two .banner-content .banner-btn-area {
+    margin-bottom: 0;
+  }
+  .banner-area-two .owl-prev {
+    top: 85%;
+    width: 45px;
+    height: 45px;
+  }
+  .banner-area-two .owl-prev i {
+    line-height: 45px;
+  }
+  .banner-area-two .owl-next {
+    top: 85%;
+    width: 45px;
+    height: 45px;
+  }
+  .banner-area-two .owl-next i {
+    line-height: 45px;
+  }
+  /*-- Feature Two --*/
+  .feature-area.two {
+    margin-top: 0;
+    padding-top: 50px;
+  }
+  /*-- Benefit Two --*/
+  .benefit-area.two .section-title {
+    text-align: center;
+  }
+  .benefit-area.two .benefit-item {
+    text-align: center;
+  }
+  /*----- Home Demo Three CSS -----*/
+  /*-- Banner --*/
+  .banner-area-two.three .banner-slider-item {
+    height: 100%;
+    padding-top: 130px;
+    padding-bottom: 115px;
+  }
+  .banner-area-two.three .banner-content {
+    margin-top: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+  /*-- Donation Three --*/
+  .donations-area.three .donation-item {
+    padding: 30px 15px 30px;
+  }
+  /*-- Counter --*/
+  .counter-item h3 {
+    margin-bottom: 2px;
+    font-size: 45px;
+  }
+  /*-- Testimonial --*/
+  .testimonial-area .testimonial-img {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .testimonial-area .testimonial-content {
+    padding: 30px 15px 30px 15px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .testimonial-area .testimonial-content:before {
+    display: none;
+  }
+  .testimonial-area .testimonial-content p {
+    font-size: 18px;
+  }
+  .testimonial-area .testimonial-content .quote {
+    font-size: 45px;
+  }
+  /*----- About CSS -----*/
+  .page-title-area {
+    height: 375px;
+  }
+  .page-title-area .title-item {
+    margin-top: 50px;
+  }
+  .page-title-area .title-item h2 {
+    font-size: 35px;
+  }
+  .pagination-area ul li {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  /*----- Donation Details CSS -----*/
+  .donation-details-area .details-item {
+    margin-bottom: 30px;
+  }
+  .donation-details-area .details-item .details-img {
+    text-align: left;
+  }
+  .donation-details-area .details-item .details-img h2 {
+    font-size: 25px;
+    margin-top: 0;
+  }
+  .donation-details-area .details-item .details-img blockquote {
+    padding: 30px 15px 30px 15px;
+    font-size: 16px;
+    margin-left: 0;
+  }
+  .donation-details-area .details-item .details-img blockquote i {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  .donation-details-area .details-item .details-share {
+    text-align: center;
+  }
+  .donation-details-area .details-item .details-share .left {
+    margin-bottom: 15px;
+  }
+  .donation-details-area .details-item .details-share .right {
+    text-align: center;
+  }
+  .donation-details-area .details-item .details-payment {
+    padding: 30px 15px 30px;
+  }
+  .donation-details-area .details-item .details-payment h3 {
+    font-size: 22px;
+  }
+  .widget-area .post .post-inner ul li:nth-child(2) {
+    margin-left: 10px;
+  }
+  /*----- Event Details CSS -----*/
+  .event-details-area .details-item {
+    margin-bottom: 30px;
+  }
+  .event-details-area .details-item .details-img {
+    text-align: center;
+  }
+  .event-details-area .details-item .details-img h2 {
+    font-size: 25px;
+  }
+  .event-details-area .details-item .details-img ul li {
+    display: inline-block;
+  }
+  /*----- Blog Details CSS -----*/
+  .blog-details-area .details-item {
+    margin-bottom: 30px;
+  }
+  .blog-details-area .details-item .details-img {
+    text-align: center;
+  }
+  .blog-details-area .details-item .details-img h2 {
+    font-size: 25px;
+  }
+  .blog-details-area .details-item .details-img blockquote {
+    padding: 30px 15px 30px 15px;
+    font-size: 16px;
+    margin-left: 0;
+  }
+  .blog-details-area .details-item .details-img blockquote i {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  .blog-details-area .details-item .details-share {
+    text-align: center;
+  }
+  .blog-details-area .details-item .details-share .left {
+    margin-bottom: 15px;
+  }
+  .blog-details-area .details-item .details-share .right {
+    text-align: center;
+  }
+  .blog-details-area .details-item .details-comment ul li {
+    padding-left: 110px;
+  }
+  .blog-details-area .details-item .details-comment ul li:last-child {
+    margin-left: 0;
+  }
+  .blog-details-area .details-item .details-post {
+    padding: 30px 15px 30px;
+  }
+  /*----- Contact CSS -----*/
+  .contact-area #contactForm {
+    text-align: center;
+  }
+  .map-area #map {
+    height: 350px;
+  }
+  /*----- User CSS -----*/
+  .user-form-area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .user-form-area .user-img {
+    background-image: unset;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .user-form-area .user-img img {
+    display: block;
+  }
+  .user-form-area .user-content {
+    height: 100%;
+  }
+  .user-form-area .user-content .user-content-inner {
+    max-width: 280px;
+  }
+  .testimonial-area.two .testimonial-img {
+    margin-bottom: 30px;
+  }
+  /*----- Error CSS -----*/
+  .error-area .error-item h1 {
+    font-size: 120px;
+  }
+  .error-area .error-item h2 {
+    font-size: 20px;
+  }
+  /*----- Coming Soon CSS -----*/
+  .coming-soon-area .soon-item h1 {
+    font-size: 40px;
+  }
+  /*----- Rules CSS -----*/
+  .rules-area .rules-item {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /*----- Default CSS -----*/
+  body {
+    font-size: 15px;
+  }
+  .ptb-100 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .pt-100 {
+    padding-top: 70px;
+  }
+  .pb-70 {
+    padding-bottom: 40px;
+  }
+  .pb-100 {
+    padding-bottom: 70px;
+  }
+  .container {
+    max-width: 720px;
+  }
+  .section-title {
+    margin-bottom: 30px;
+  }
+  .section-title h2 {
+    font-size: 35px;
+  }
+  /*----- Home Demo One CSS -----*/
+  /*-- Header --*/
+  .header-area {
+    text-align: center;
+  }
+  .header-area .left {
+    margin-bottom: 15px;
+  }
+  .header-area .right {
+    text-align: center;
+  }
+  .header-area .right .header-search .centered {
+    width: 85%;
+  }
+  /*-- Navbar --*/
+  .navbar-area {
+    border-top: 1px solid #828181;
+  }
+  .side-nav {
+    position: absolute;
+    top: 9px;
+    right: 60px;
+  }
+  .side-nav a {
+    padding: 8px 25px;
+  }
+  /*-- Banner --*/
+  .banner-area {
+    padding-top: 150px;
+    padding-bottom: 105px;
+    height: 100%;
+    text-align: center;
+  }
+  .banner-area .banner-img img:nth-child(1) {
+    max-width: 100%;
+  }
+  .banner-area .banner-img img:nth-child(2) {
+    display: none;
+  }
+  .banner-content {
+    margin-top: 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner-content h1 {
+    font-size: 45px;
+  }
+  .banner-content .banner-btn-area {
+    margin-bottom: 30px;
+  }
+  /*-- Dream --*/
+  .dream-item {
+    text-align: center;
+    padding: 30px 15px 30px;
+  }
+  .dream-item p {
+    margin-bottom: 15px;
+  }
+  .dream-item .sub-span {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 20px;
+  }
+  /*-- About --*/
+  .about-area {
+    text-align: center;
+  }
+  .about-area .about-content .section-title {
+    text-align: center;
+  }
+  /*-- Feature --*/
+  .feature-area {
+    text-align: center;
+  }
+  /*-- Donation --*/
+  .donation-item {
+    text-align: center;
+  }
+  .donation-item .inner {
+    padding: 26px 15px 30px;
+  }
+  /*-- Work --*/
+  .work-area {
+    text-align: center;
+  }
+  .work-area .work-content .section-title {
+    text-align: center;
+  }
+  .work-area .work-img {
+    text-align: center;
+  }
+  /*-- Blog --*/
+  .blog-area {
+    text-align: center;
+  }
+  /*-- Footer --*/
+  .footer-area .copyright-area {
+    margin-top: 20px;
+  }
+  /*----- Home Demo Two CSS -----*/
+  /*-- Banner --*/
+  .banner-area-two .banner-slider-item {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 90px;
+  }
+  .banner-area-two .banner-slider-item .banner-shape {
+    display: none;
+  }
+  .banner-area-two .banner-content {
+    margin-top: 0;
+    max-width: 100%;
+    padding: 0 0 0;
+  }
+  .banner-area-two .banner-content .banner-btn-area {
+    margin-bottom: 0;
+  }
+  .banner-area-two .owl-prev {
+    top: 85%;
+    width: 45px;
+    height: 45px;
+  }
+  .banner-area-two .owl-prev i {
+    line-height: 45px;
+  }
+  .banner-area-two .owl-next {
+    top: 85%;
+    width: 45px;
+    height: 45px;
+  }
+  .banner-area-two .owl-next i {
+    line-height: 45px;
+  }
+  /*-- Feature Two --*/
+  .feature-area.two {
+    margin-top: 0;
+    padding-top: 70px;
+  }
+  /*-- Benefit Two --*/
+  .benefit-area.two .section-title {
+    text-align: center;
+  }
+  .benefit-area.two .benefit-item {
+    text-align: center;
+  }
+  /*----- Home Demo Three CSS -----*/
+  /*-- Banner --*/
+  .banner-area-two.three .banner-slider-item {
+    height: 100%;
+    padding-top: 130px;
+    padding-bottom: 115px;
+  }
+  .banner-area-two.three .banner-content {
+    margin-top: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+  /*-- Donation Three --*/
+  .donations-area.three .donation-item {
+    padding: 30px 15px 30px;
+  }
+  /*-- Counter --*/
+  .counter-item h3 {
+    margin-bottom: 2px;
+    font-size: 45px;
+  }
+  /*-- Testimonial --*/
+  .testimonial-area .testimonial-img {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .testimonial-area .testimonial-content {
+    padding: 30px 15px 30px 15px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .testimonial-area .testimonial-content:before {
+    display: none;
+  }
+  .testimonial-area .testimonial-content p {
+    font-size: 18px;
+  }
+  .testimonial-area .testimonial-content .quote {
+    font-size: 45px;
+  }
+  /*----- About CSS -----*/
+  .page-title-area {
+    height: 375px;
+  }
+  .page-title-area .title-item {
+    margin-top: 50px;
+  }
+  .page-title-area .title-item h2 {
+    font-size: 45px;
+  }
+  /*----- Donation Details CSS -----*/
+  .donation-details-area .details-item {
+    margin-bottom: 30px;
+  }
+  .donation-details-area .details-item .details-img {
+    text-align: center;
+  }
+  .donation-details-area .details-item .details-img blockquote {
+    padding: 30px 15px 30px 15px;
+    margin-left: 0;
+  }
+  .donation-details-area .details-item .details-img blockquote i {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  .donation-details-area .details-item .details-payment {
+    padding: 30px 15px 30px;
+  }
+  .widget-area .post .post-inner ul li:nth-child(1) {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 22%;
+            flex: 0 0 22%;
+    max-width: 22%;
+  }
+  .widget-area .instagram .instagram-item img {
+    width: 100%;
+  }
+  /*----- Event Details CSS -----*/
+  .event-details-area .details-item {
+    margin-bottom: 30px;
+  }
+  .event-details-area .details-item .details-img {
+    text-align: center;
+  }
+  .event-details-area .details-item .details-img ul li {
+    display: inline-block;
+  }
+  /*----- Blog Details CSS -----*/
+  .blog-details-area .details-item {
+    margin-bottom: 30px;
+  }
+  .blog-details-area .details-item .details-img {
+    text-align: center;
+  }
+  .blog-details-area .details-item .details-img blockquote {
+    padding: 30px 15px 30px 15px;
+    margin-left: 0;
+  }
+  .blog-details-area .details-item .details-img blockquote i {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  .blog-details-area .details-item .details-post {
+    padding: 30px 30px 30px;
+  }
+  /*----- Contact CSS -----*/
+  .contact-area #contactForm {
+    text-align: center;
+  }
+  /*----- User CSS -----*/
+  .user-form-area {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .user-form-area .user-img {
+    background-image: unset;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .user-form-area .user-img img {
+    display: block;
+  }
+  .user-form-area .user-content {
+    height: 100%;
+  }
+  .testimonial-area.two .testimonial-img {
+    margin-bottom: 30px;
+  }
+  /*----- Coming Soon CSS -----*/
+  .coming-soon-area .soon-item h1 {
+    font-size: 80px;
+  }
+  /*----- Rules CSS -----*/
+  .rules-area .rules-item {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .banner-area .banner-img img:nth-child(1) {
+    max-width: 100%;
+  }
+  .work-area .work-img img:nth-child(2) {
+    margin-right: 45px;
+  }
+  .header-area .right .nav-flag-dropdown .dropdown-menu {
+    -webkit-transform: translate3d(-20px, 30px, 0px) !important;
+            transform: translate3d(-20px, 30px, 0px) !important;
+  }
+  .banner-content h1 {
+    font-size: 45px;
+  }
+  .banner-area .banner-img img:nth-child(2) {
+    bottom: -150px;
+    max-width: 150px;
+  }
+  .dream-item {
+    padding: 30px 10px 40px;
+  }
+  .dream-item h3 {
+    font-size: 21px;
+  }
+  .donation-item .inner {
+    padding: 26px 15px 30px;
+  }
+  .donation-item .top h3 {
+    font-size: 20px;
+  }
+  .benefit-item h3 {
+    font-size: 20px;
+  }
+  .banner-area-two.three .banner-content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 600px;
+  }
+  .donations-area.three .donation-item {
+    padding: 30px 15px 30px;
+  }
+  .user-form-area .user-content .user-content-inner {
+    max-width: 430px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .mean-container .mean-bar {
+    background-color: #302c51;
+  }
+  .mobile-nav .logo {
+    top: 10px;
+    max-width: 115px;
+  }
+  .mean-container a.meanmenu-reveal span {
+    margin-top: 30px;
+    position: relative;
+    top: -10px;
+  }
+  .mobile-nav.mean-container .mean-nav ul li a.active {
+    color: #ff6015;
+  }
+  .navbar-nav {
+    height: 375px;
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .banner-area .banner-img {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .banner-area .banner-img img:nth-child(1) {
+    max-width: 710px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner-area .banner-img img:nth-child(2) {
+    bottom: -15px;
+    max-width: 160px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1320px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 2700px) {
+  .banner-area .banner-img {
+    max-width: 795px;
+  }
+}
+
+@media only screen and (min-width: 1199px) and (max-width: 1350px) {
+  .banner-content {
+    max-width: 555px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
