@@ -1,6 +1,6 @@
 # Web Donasi
 
-Sebuah websiter donasi online yang terintegrasi dengan Xendit untuk Payment Gateway, sudah termasuk halaman utama, donasi, artikel dan kontak
+Sebuah website donasi online yang terintegrasi dengan Xendit untuk Payment Gateway, sudah termasuk halaman utama, donasi, artikel dan kontak. Project ini pernah dipakai untuk sebuah yayasan dan sudah mendapat ijin dari ownernya untuk dibagikan.
 
 ![App Screenshot](https://github.com/superXdev/web_donasi/blob/main/public/dist/img/ss.png?raw=true)
 
